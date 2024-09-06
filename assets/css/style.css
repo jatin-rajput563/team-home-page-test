@@ -1,0 +1,42 @@
+@import url('https://fonts.cdnfonts.com/css/arquitecta');
+
+body {
+    font-family: 'Arquitecta', sans-serif;
+}
+
+/* =====================section-1============= */
+.navbar-nav a {
+    color: white;
+}
+
+.Log-Out-btn {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 20px 12px 20px;
+    border: 1px solid #F58505;
+}
+
+
+.svg-1 {
+    margin-right: 8px;
+}
+
+.nav-link {
+    transition: transition 5s;
+}
+
+.navbar-nav a:hover {
+    color: white;
+}
+.navbar-nav{
+    padding-top: 18px;
+}
+
+.nav-link:hover {
+    transform: scale(1.1);
+}
+
+.bg-black {
+    background-color: black;
+}
