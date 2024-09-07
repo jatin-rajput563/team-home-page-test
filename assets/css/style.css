@@ -123,12 +123,42 @@ body {
 }
 
 /* ====================section-3======================= */
+.sectcion-3-card {
+    max-width: 1140px;
+    padding: 10px;
+    gap: 16px;
+    border: 1px solid #686C6B;
+}
+
+.sectcion-3-card:hover {
+    box-shadow: 0px 8px 35px 0px #0000001A;
+}
 
 .num-card {
     padding: 3px 10px 3px 10px;
     gap: 10px;
     border: 2px solid black;
     border-radius: 55px;
+}
+.num-card:hover{
+    transform: scale(1.1);
+}
+
+.read-para:hover {
+    border-bottom: 2px solid black;
+    width: 86px;
+}
+
+.play-svg {
+    top: 0;
+    right: 0;
+}
+.play-svg:hover{
+    transform: scale(1.1);
+}
+
+.read-para:hover {
+    border-bottom: 82px;
 }
 
 /* --------------------rsponsive----------------------- */

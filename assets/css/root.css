@@ -29,7 +29,7 @@
     --light-grey: #E2E4E4;
     --dark-grey: #686C6B;
     --mid-night-grey: #363939;
-    --black: #040707;
+    --black: #363939;
 
 
 
@@ -115,6 +115,10 @@
 
 .mint {
     color: var(--mint);
+}
+
+.black {
+    color: var(--black);
 }
 
 .light-grey {
