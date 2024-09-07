@@ -5,38 +5,116 @@ body {
 }
 
 /* =====================section-1============= */
-.navbar-nav a {
+.bg-image {
+    background-image: url(/assets/images/png/bg-image.png) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+}
+
+.navbar {
+    padding: 32px 36px 32px 16px;
+    border-radius: 24px;
+}
+
+.nav-buttn {
+    width: 186px;
+    height: 52px;
+    top: 16px;
+    left: 938px;
+    gap: 10px;
+    border-radius: 56px;
+    background-color: var(--color-red);
+    border: none;
+    transition: all 300ms linear;
+}
+
+.nav-item a {
     color: white;
 }
 
-.Log-Out-btn {
-    font-family: "Poppins", sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    padding: 12px 20px 12px 20px;
-    border: 1px solid #F58505;
+.bg-herosection-img {
+    background-image: url(/assets/images/png/bg-image.png);
+    background-repeat: repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+
 }
 
 
-.svg-1 {
-    margin-right: 8px;
+.rotated-1 {
+    transform-origin: left;
+    transform: rotate(35deg);
 }
 
-.nav-link {
-    transition: transition 5s;
+.rotated-2 {
+    transform-origin: left;
+    transform: rotate(-35deg);
 }
 
-.navbar-nav a:hover {
-    color: white;
-}
-.navbar-nav{
-    padding-top: 18px;
+.hero-section-heading {
+    max-width: 830px;
 }
 
-.nav-link:hover {
-    transform: scale(1.1);
+.hero-sectoin-paragraph {
+    max-width: 742px;
 }
 
-.bg-black {
-    background-color: black;
+.hero-section-button {
+    width: 173px;
+    height: 63px;
+    padding: 20px 32px 20px 32px;
+    gap: 10px;
+    border-radius: 56px;
+    opacity: 0px;
+    border: none;
+    background: var(--color-red);
+    transition: all 300ms linear;
+}
+
+.nav-links {
+    transition: all 300ms linear;
+}
+
+.nav-links:hover {
+    color: var(--color-red);
+}
+
+.google {
+    width: 40px;
+    height: 40px;
+}
+
+.google-box {
+    min-width: 229.17px !important;
+    height: 80px;
+    background: var(--color-white);
+    border-radius: 16px;
+    border: 0.83px;
+}
+
+.hero-section-button:hover {
+    color: var(--color-red);
+    background: var(--color-white);
+    border: 1px solid var(--color-red);
+}
+
+.btn-parent {
+    border: 1px solid --orange;
+}
+
+.navbar-text a {
+    color: white !important;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+/* =====================section-2=================== */
+.container-2 { 
+    width: fit-content;
+    height: 335px;
+
 }

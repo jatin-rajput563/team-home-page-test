@@ -23,6 +23,7 @@
 
     --white: #FFFFFF;
     --orange: #F58505;
+    --bg-orange: #F58505;
     --yellow: #EEE916;
     --mint: #A3CCC4;
     --light-grey: #E2E4E4;
@@ -123,6 +124,6 @@
     color: var(--mid-night-grey);
 }
 
-.black {
-    color: var(--black);
+.bg-orange {
+    background-color: var(--bg-orange);
 }
