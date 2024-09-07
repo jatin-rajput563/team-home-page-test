@@ -5,38 +5,55 @@ body {
 }
 
 /* =====================section-1============= */
-.navbar-nav a {
-    color: white;
-}
+@media (max-width:1200px) {
+    label[for="menuicons"] {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 40px;
+        height: 30px;
+        z-index: 1;
+        position: relative;
+    }
 
-.Log-Out-btn {
-    font-family: "Poppins", sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    padding: 12px 20px 12px 20px;
-    border: 1px solid #F58505;
-}
+    label[for="menuicons"] span {
+        width: 100%;
+        height: 6px;
+        background-color: #f58550;
+        border-radius: 10px;
+        transition: all 200ms linear;
+    }
 
+    ul.menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        flex-direction: column;
+        top: 0;
+        right: -100%;
+        height: 100vh;
+        width: 100%;
+        transition: all 200ms linear;
+    }
 
-.svg-1 {
-    margin-right: 8px;
-}
+    input[type="checkbox"]:checked~ul.menu {
+        right: 0;
+        background-color: #50725c;
+    }
 
-.nav-link {
-    transition: transition 5s;
-}
+    input[type="checkbox"]:checked+label[for="menuicons"]>span:first-child {
+        transform: rotate(40deg);
+        transform-origin: left;
+    }
 
-.navbar-nav a:hover {
-    color: white;
-}
-.navbar-nav{
-    padding-top: 18px;
-}
+    input[type="checkbox"]:checked+label[for="menuicons"]>span:nth-child(2) {
+        transform: translateX(-200%);
+        opacity: 0;
+    }
 
-.nav-link:hover {
-    transform: scale(1.1);
-}
-
-.bg-black {
-    background-color: black;
+    input[type="checkbox"]:checked+label[for="menuicons"]>span:last-child {
+        transform: rotate(-38deg);
+        transform-origin: left;
+    }
 }

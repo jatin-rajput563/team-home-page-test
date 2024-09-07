@@ -1,0 +1,124 @@
+@import url(/assets/css/root.css);
+
+.barnding-card-1 {
+    max-width: 288px;
+    max-height: 170px;
+
+}
+
+.barnding-card-2 {
+    max-width: 288px;
+    max-height: 170px;
+}
+
+.barnding-card-3 {
+    max-width: 288px;
+    max-height: 170px;
+}
+
+.barnding-card-4 {
+    max-width: 288px;
+    max-height: 170px;
+}
+
+.barnding-card-5 {
+    max-width: 288px;
+    max-height: 170px;
+}
+
+.my-brand-main-card {
+    margin-top: 66px;
+    margin-bottom: 144px;
+}
+
+.section-2-heading {
+    margin-top: 74px;
+}
+
+
+
+/* -------------Grab-Your-Free-PDF-Now-------------- */
+
+.bg-img {
+    background-image: url(/assets/images/png/footer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+    ;
+}
+
+.section-4-heading {
+    padding-top: 115px;
+}
+
+.para-section-4 {
+    max-width: 730px;
+
+}
+
+.input-section {
+    max-width: 330px;
+    width: 100%;
+}
+
+.Grab-Your-Free-PDF-Now {
+    max-width: 730px;
+}
+
+.name-input {
+    padding: 13px 278px 12px 16px;
+    border: 1px solid #686C6B;
+    margin-bottom: 12px;
+    width: 100%;
+}
+
+.email-input {
+    padding: 13px 230px 12px 16px;
+    border: 1px solid #686C6B;
+    width: 100%;
+}
+
+.name-input::placeholder {
+    width: 100%;
+    padding: 13px 16px;
+}
+
+.email-input::placeholder {
+    width: 100%;
+    padding: 13px 20px 13px 16px;
+}
+
+.pdf-btn {
+    width: 329px;
+    height: 48px;
+    gap: 10px;
+    background: #F58505;
+    color: white;
+    margin-top: 32px;
+    border: none;
+    margin-bottom: 50px;
+}
+.pdf-btn:hover{
+    background-color: white;
+    color: #F58505;
+}
+
+
+
+
+
+
+
+/* ----------------responsive----------------- */
+
+
+
+@media (max-width:575.98px) {
+
+
+    .barnding-card-5 {
+        align-self: center;
+
+    }
+
+}
