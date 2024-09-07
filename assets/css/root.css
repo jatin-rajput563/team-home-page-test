@@ -36,6 +36,7 @@
     /* ---------bg-color---------- */
     --bg-white: #FFFFFF;
     --bg-black: #040707;
+    --bg-light-black: #1D1D1D;
 
 }
 
@@ -126,4 +127,8 @@
 
 .bg-orange {
     background-color: var(--bg-orange);
+}
+
+.bg-light-black {
+    background-color: var(--bg-light-black);
 }
