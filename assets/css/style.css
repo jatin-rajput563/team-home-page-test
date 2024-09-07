@@ -4,6 +4,10 @@ body {
     font-family: 'Arquitecta', sans-serif;
 }
 
+.pl-16 {
+    padding-left: 16px;
+}
+
 /* =====================section-1============= */
 .bg-image {
     background-image: url(/assets/images/png/bg-image.png) !important;
@@ -113,8 +117,20 @@ body {
 }
 
 /* =====================section-2=================== */
-.container-2 { 
+.container-2 {
     width: fit-content;
-    height: 335px;
+    height: 50vh;
 }
+
 /* ====================section-3======================= */
+
+.num-card {
+    padding: 3px 10px 3px 10px;
+    gap: 10px;
+    border: 2px solid black;
+    border-radius: 55px;
+}
+
+/* --------------------rsponsive----------------------- */
+
+@media (max-width:992px) {}
