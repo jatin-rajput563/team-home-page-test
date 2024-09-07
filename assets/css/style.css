@@ -1,166 +1,201 @@
 @import url('https://fonts.cdnfonts.com/css/arquitecta');
+@import url(/assets/css/root.css);
 
 body {
     font-family: 'Arquitecta', sans-serif;
 }
 
-.pl-16 {
-    padding-left: 16px;
+.light_grey {
+    color: #686C6B;
 }
 
-/* =====================section-1============= */
-.bg-image {
-    background-image: url(/assets/images/png/bg-image.png) !important;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: fixed;
+.dark_grey {
+    color: #040707CC;
 }
 
-.navbar {
-    padding: 32px 36px 32px 16px;
-    border-radius: 24px;
+p,
+h2,
+h3,
+h4 {
+    margin-bottom: unset !important;
 }
 
-.nav-buttn {
-    width: 186px;
-    height: 52px;
-    top: 16px;
-    left: 938px;
-    gap: 10px;
-    border-radius: 56px;
-    background-color: var(--color-red);
-    border: none;
+/*===================== Nav-bar================================= */
+.nav_btn {
+    border: 1px solid #F58505;
+    padding: 12px 20px 12px 20px;
+    background: #060804;
+}
+
+.nav_btn:hover {
+    border: 1px solid #EEE916;
     transition: all 300ms linear;
 }
 
-.nav-item a {
-    color: white;
+.nav_btn:hover a {
+    color: var(--fc-yellow);
+    transition: all 300ms linear;
 }
 
-.bg-herosection-img {
+.navbar-nav :hover {
+    font-weight: 900;
+}
+
+.gap_35 {
+    gap: 35px;
+}
+
+.pe_40 {
+    padding-right: 40px;
+}
+
+.fw-450 {
+    font-weight: 450;
+}
+
+/* ===================Hero-section================= */
+.bg_image {
     background-image: url(/assets/images/png/bg-image.png);
-    background-repeat: repeat;
     background-size: cover;
-    width: 100%;
-    min-height: 100vh;
-
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-
-.rotated-1 {
-    transform-origin: left;
-    transform: rotate(35deg);
+.mt_202 {
+    margin-top: 202px;
 }
 
-.rotated-2 {
-    transform-origin: left;
-    transform: rotate(-35deg);
+.mt_60 {
+    margin-top: 60px;
 }
 
-.hero-section-heading {
-    max-width: 830px;
+.ps_34 {
+    padding-left: 34px;
 }
 
-.hero-sectoin-paragraph {
-    max-width: 742px;
+.ps_23 {
+    padding-left: 23px;
 }
 
-.hero-section-button {
-    width: 173px;
-    height: 63px;
-    padding: 20px 32px 20px 32px;
-    gap: 10px;
-    border-radius: 56px;
-    opacity: 0px;
-    border: none;
-    background: var(--color-red);
+.hero_content {
+    gap: 58px;
+}
+
+.hero_para {
+    max-width: 633px;
+}
+
+.hero_title {
+    max-width: 540px;
+}
+
+.hero_btn {
+    padding: 10px 24px;
+    margin-top: 40px;
+}
+
+.hero_btn:hover {
+    background: var(--fc-yellow);
     transition: all 300ms linear;
 }
 
-.nav-links {
+.hero_btn:hover a {
+    color: black !important;
     transition: all 300ms linear;
 }
 
-.nav-links:hover {
-    color: var(--color-red);
+/* =====================================Section-2=========================================== */
+.sec_2_data_numbers {
+    gap: 120px;
+    padding-top: 111px;
+    padding-bottom: 111px;
 }
 
-.google {
-    width: 40px;
-    height: 40px;
+/* ==============================Section-3=========================================== */
+.sec_3_title {
+    padding-top: 154px;
+    padding-bottom: 87px;
 }
 
-.google-box {
-    min-width: 229.17px !important;
-    height: 80px;
-    background: var(--color-white);
-    border-radius: 16px;
-    border: 0.83px;
+.s2_ep {
+    font-weight: 900;
+    padding: 3px 10px;
 }
 
-.hero-section-button:hover {
-    color: var(--color-red);
-    background: var(--color-white);
-    border: 1px solid var(--color-red);
+.s2_ep_box {
+    border-radius: 55px;
 }
 
-.btn-parent {
-    border: 1px solid --orange;
+.podcast_card_para {
+    max-width: 695px;
 }
 
-.navbar-text a {
-    color: white !important;
+.read_more {
+    border-bottom: 2px solid black;
+    max-width: 64px;
 }
 
-.cursor {
+.read_more:hover {
+    transform: scale(1.1);
+}
+
+.podcast_cards {
+    border: 1px solid #686C6B;
+    padding: 16px;
+    max-width: 1180px;
+}
+
+.card_play_btn {
     cursor: pointer;
 }
 
-/* =====================section-2=================== */
-.container-2 {
-    width: fit-content;
-    height: 50vh;
+.card_play_btn:hover path {
+    fill: #F58505;
 }
 
-/* ====================section-3======================= */
-.sectcion-3-card {
-    max-width: 1140px;
-    padding: 10px;
-    gap: 16px;
-    border: 1px solid #686C6B;
+.butns{
+    margin-top: 67px;
 }
 
-.sectcion-3-card:hover {
-    box-shadow: 0px 8px 35px 0px #0000001A;
+/* ================================RESPONSIVE======================================= */
+@media (max-width:1199.8px) {
+    .hero_content {
+        flex-wrap: wrap-reverse;
+    }
+
+    .gap_35 {
+        gap: 5px;
+    }
+
+    .pe_40 {
+        padding-right: 10px;
+    }
+
+
+    .mt_202 {
+        margin-top: 150px;
+    }
+
+    .mt_60 {
+        margin-top: 90px;
+    }
 }
 
-.num-card {
-    padding: 3px 10px 3px 10px;
-    gap: 10px;
-    border: 2px solid black;
-    border-radius: 55px;
-}
-.num-card:hover{
-    transform: scale(1.1);
-}
+@media (max-width:991.9px) {
+    .mt_202 {
+        margin-top: 90px;
+    }
 
-.read-para:hover {
-    border-bottom: 2px solid black;
-    width: 86px;
-}
+    .mt_60 {
+        margin-top: 100px;
+    }
 
-.play-svg {
-    top: 0;
-    right: 0;
-}
-.play-svg:hover{
-    transform: scale(1.1);
-}
+    .card_details {
+        margin-top: 20px;
+    }
 
-.read-para:hover {
-    border-bottom: 82px;
+    .sec_3_title {
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
 }
-
-/* --------------------rsponsive----------------------- */
-
-@media (max-width:992px) {}
