@@ -4,8 +4,16 @@ body {
     font-family: 'Arquitecta', sans-serif;
 }
 
+section {
+    overflow: hidden;
+}
+
 .pl-16 {
     padding-left: 16px;
+}
+
+* {
+    text-decoration: none;
 }
 
 /* =====================section-1============= */
@@ -140,7 +148,8 @@ body {
     border: 2px solid black;
     border-radius: 55px;
 }
-.num-card:hover{
+
+.num-card:hover {
     transform: scale(1.1);
 }
 
@@ -153,12 +162,65 @@ body {
     top: 0;
     right: 0;
 }
-.play-svg:hover{
+
+.play-svg:hover {
     transform: scale(1.1);
 }
 
 .read-para:hover {
     border-bottom: 82px;
+}
+
+/* ============section-5================ */
+.slick-track {
+    display: flex !important;
+    gap: 32px !important;
+}
+
+.sec-5 .slick-dots li {
+    transition: all 200ms linear;
+    width: 8px !important;
+    height: 8px;
+    background-color: #686C6B;
+    border-radius: 100%;
+}
+
+.sec-5 .slick-dots .slick-active {
+    background-color: #F58505 !important;
+    height: 15px !important;
+    width: 15px !important;
+    border-radius: 50%;
+}
+
+.sec-5 .slick-dots li button::before {
+    content: unset !important;
+}
+
+.sec-5 .slick-dots {
+    bottom: -50px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ====================section-6==================== */
+.links:hover a {
+    color: #F58505 !important;
+
+    path {
+        stroke: #F58505 !important;
+    }
+}
+
+.links {
+    transition: all 200ms linear !important;
+}
+
+.footer-circle {
+    width: 35px;
+    height: 35px;
+    background: #2B2B2B;
+    border-radius: 50px;
 }
 
 /* --------------------rsponsive----------------------- */
