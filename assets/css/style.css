@@ -1,4 +1,205 @@
 @import url('https://fonts.cdnfonts.com/css/arquitecta');
+@import url(/assets/css/root.css);
+
+body {
+    font-family: 'Arquitecta', sans-serif;
+}
+
+.light_grey {
+    color: #686C6B;
+}
+
+.dark_grey {
+    color: #040707CC;
+}
+
+p,
+h2,
+h3,
+h4 {
+    margin-bottom: unset !important;
+}
+
+/*===================== Nav-bar================================= */
+.nav_btn {
+    border: 1px solid #F58505;
+    padding: 12px 20px 12px 20px;
+    background: #060804;
+}
+
+.nav_btn:hover {
+    border: 1px solid #EEE916;
+    transition: all 300ms linear;
+}
+
+.nav_btn:hover a {
+    color: var(--fc-yellow);
+    transition: all 300ms linear;
+}
+
+.navbar-nav :hover {
+    font-weight: 900;
+}
+
+.gap_35 {
+    gap: 35px;
+}
+
+.pe_40 {
+    padding-right: 40px;
+}
+
+.fw-450 {
+    font-weight: 450;
+}
+
+/* ===================Hero-section================= */
+.bg_image {
+    background-image: url(/assets/images/png/bg-image.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mt_202 {
+    margin-top: 202px;
+}
+
+.mt_60 {
+    margin-top: 60px;
+}
+
+.ps_34 {
+    padding-left: 34px;
+}
+
+.ps_23 {
+    padding-left: 23px;
+}
+
+.hero_content {
+    gap: 58px;
+}
+
+.hero_para {
+    max-width: 633px;
+}
+
+.hero_title {
+    max-width: 540px;
+}
+
+.hero_btn {
+    padding: 10px 24px;
+    margin-top: 40px;
+}
+
+.hero_btn:hover {
+    background: var(--fc-yellow);
+    transition: all 300ms linear;
+}
+
+.hero_btn:hover a {
+    color: black !important;
+    transition: all 300ms linear;
+}
+
+/* =====================================Section-2=========================================== */
+.sec_2_data_numbers {
+    gap: 120px;
+    padding-top: 111px;
+    padding-bottom: 111px;
+}
+
+/* ==============================Section-3=========================================== */
+.sec_3_title {
+    padding-top: 154px;
+    padding-bottom: 87px;
+}
+
+.s2_ep {
+    font-weight: 900;
+    padding: 3px 10px;
+}
+
+.s2_ep_box {
+    border-radius: 55px;
+}
+
+.podcast_card_para {
+    max-width: 695px;
+}
+
+.read_more {
+    border-bottom: 2px solid black;
+    max-width: 64px;
+}
+
+.read_more:hover {
+    transform: scale(1.1);
+}
+
+.podcast_cards {
+    border: 1px solid #686C6B;
+    padding: 16px;
+    max-width: 1180px;
+}
+
+.card_play_btn {
+    cursor: pointer;
+}
+
+.card_play_btn:hover path {
+    fill: #F58505;
+}
+
+.butns{
+    margin-top: 67px;
+}
+
+/* ================================RESPONSIVE======================================= */
+@media (max-width:1199.8px) {
+    .hero_content {
+        flex-wrap: wrap-reverse;
+    }
+
+    .gap_35 {
+        gap: 5px;
+    }
+
+    .pe_40 {
+        padding-right: 10px;
+    }
+
+
+    .mt_202 {
+        margin-top: 150px;
+    }
+
+    .mt_60 {
+        margin-top: 90px;
+    }
+}
+
+@media (max-width:991.9px) {
+    .mt_202 {
+        margin-top: 90px;
+    }
+
+    .mt_60 {
+        margin-top: 100px;
+    }
+
+    .card_details {
+        margin-top: 20px;
+    }
+
+    .sec_3_title {
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+}
+@import url('https://fonts.cdnfonts.com/css/arquitecta');
 
 body {
     font-family: 'Arquitecta', sans-serif;
