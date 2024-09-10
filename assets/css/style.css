@@ -5,12 +5,8 @@ body {
     font-family: 'Arquitecta', sans-serif;
 }
 
-.light_grey {
-    color: #686C6B;
-}
-
-.dark_grey {
-    color: #040707CC;
+a {
+    text-decoration: none;
 }
 
 p,
@@ -18,6 +14,22 @@ h2,
 h3,
 h4 {
     margin-bottom: unset !important;
+}
+
+.ml-24 {
+    margin-left: 24px;
+}
+
+.pt-115 {
+    padding-top: 115px;
+}
+
+.pl-24 {
+    padding-left: 24px;
+}
+
+.pr-30 {
+    padding-right: 30px;
 }
 
 /*===================== Nav-bar================================= */
@@ -111,10 +123,15 @@ h4 {
     padding-bottom: 111px;
 }
 
+.container-2 {
+    width: fit-content;
+    height: 50vh;
+}
+
 /* ==============================Section-3=========================================== */
 .sec_3_title {
-    padding-top: 154px;
-    padding-bottom: 87px;
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 
 .s2_ep {
@@ -153,52 +170,10 @@ h4 {
     fill: #F58505;
 }
 
-.butns{
+.butns {
     margin-top: 67px;
 }
 
-/* ================================RESPONSIVE======================================= */
-@media (max-width:1199.8px) {
-    .hero_content {
-        flex-wrap: wrap-reverse;
-    }
-
-    .gap_35 {
-        gap: 5px;
-    }
-
-    .pe_40 {
-        padding-right: 10px;
-    }
-
-
-    .mt_202 {
-        margin-top: 150px;
-    }
-
-    .mt_60 {
-        margin-top: 90px;
-    }
-}
-
-@media (max-width:991.9px) {
-    .mt_202 {
-        margin-top: 90px;
-    }
-
-    .mt_60 {
-        margin-top: 100px;
-    }
-
-    .card_details {
-        margin-top: 20px;
-    }
-
-    .sec_3_title {
-        padding-top: 80px;
-        padding-bottom: 50px;
-    }
-}
 @import url('https://fonts.cdnfonts.com/css/arquitecta');
 
 body {
@@ -217,162 +192,77 @@ section {
     text-decoration: none;
 }
 
-/* =====================section-1============= */
-.bg-image {
-    background-image: url(/assets/images/png/bg-image.png) !important;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: fixed;
-}
-
-.navbar {
-    padding: 32px 36px 32px 16px;
-    border-radius: 24px;
-}
-
-.nav-buttn {
-    width: 186px;
-    height: 52px;
-    top: 16px;
-    left: 938px;
-    gap: 10px;
-    border-radius: 56px;
-    background-color: var(--color-red);
-    border: none;
-    transition: all 300ms linear;
-}
-
-.nav-item a {
-    color: white;
-}
-
-.bg-herosection-img {
-    background-image: url(/assets/images/png/bg-image.png);
-    background-repeat: repeat;
-    background-size: cover;
-    width: 100%;
-    min-height: 100vh;
-
-}
-
-
-.rotated-1 {
-    transform-origin: left;
-    transform: rotate(35deg);
-}
-
-.rotated-2 {
-    transform-origin: left;
-    transform: rotate(-35deg);
-}
-
-.hero-section-heading {
-    max-width: 830px;
-}
-
-.hero-sectoin-paragraph {
-    max-width: 742px;
-}
-
-.hero-section-button {
-    width: 173px;
-    height: 63px;
-    padding: 20px 32px 20px 32px;
-    gap: 10px;
-    border-radius: 56px;
-    opacity: 0px;
-    border: none;
-    background: var(--color-red);
-    transition: all 300ms linear;
-}
-
-.nav-links {
-    transition: all 300ms linear;
-}
-
-.nav-links:hover {
-    color: var(--color-red);
-}
-
-.google {
-    width: 40px;
-    height: 40px;
-}
-
-.google-box {
-    min-width: 229.17px !important;
-    height: 80px;
-    background: var(--color-white);
-    border-radius: 16px;
-    border: 0.83px;
-}
-
-.hero-section-button:hover {
-    color: var(--color-red);
-    background: var(--color-white);
-    border: 1px solid var(--color-red);
-}
-
-.btn-parent {
-    border: 1px solid --orange;
-}
-
-.navbar-text a {
-    color: white !important;
-}
-
-.cursor {
-    cursor: pointer;
-}
-
-/* =====================section-2=================== */
-.container-2 {
-    width: fit-content;
-    height: 50vh;
-}
-
-/* ====================section-3======================= */
-.sectcion-3-card {
-    max-width: 1140px;
-    padding: 10px;
-    gap: 16px;
-    border: 1px solid #686C6B;
-}
-
-.sectcion-3-card:hover {
-    box-shadow: 0px 8px 35px 0px #0000001A;
-}
-
-.num-card {
-    padding: 3px 10px 3px 10px;
+.be-btn {
+    padding: 10px 24px 10px 24px;
     gap: 10px;
     border: 2px solid black;
-    border-radius: 55px;
 }
 
-.num-card:hover {
-    transform: scale(1.1);
+.be-btn:hover {
+    background: #F58505;
+    color: white;
+    border-color: #F58505;
 }
 
-.read-para:hover {
-    border-bottom: 2px solid black;
-    width: 86px;
+.have-btn {
+    padding: 10px 24px 10px 24px;
+    gap: 10px;
+    border: 2px solid black;
+    margin-left: 10px;
 }
 
-.play-svg {
-    top: 0;
-    right: 0;
+.have-btn:hover {
+    background: #F58505;
+    color: white;
+    border-color: #F58505;
 }
 
-.play-svg:hover {
-    transform: scale(1.1);
+/* ==============================Section-3=========================================== */
+
+/* ============section-6================ */
+.section-4-bg {
+    background-image: url(/assets/images/png/section-4-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.read-para:hover {
-    border-bottom: 82px;
+.compete-para {
+    max-width: 730px;
+    height: 62px;
 }
+
+.name-input {
+    width: 330px !important;
+    height: 50px;
+    border: 1px solid #686C6B;
+    color: white;
+    background-color: #1D1D1D;
+}
+
+.start-btn {
+    padding: 10px 113px 10px 113px;
+    background: #F58505;
+    color: white;
+    border: none;
+}
+
+.start-btn:hover {
+    background-color: white;
+    color: #F58505;
+}
+
 
 /* ============section-5================ */
+.first-card {
+    box-shadow: 0px 0px 20px 1px #00000012;
+    height: 322px;
+}
+
+.circle-style {
+    top: 50%;
+    right: 5%;
+}
+
 .slick-track {
     display: flex !important;
     gap: 32px !important;
@@ -424,6 +314,65 @@ section {
     border-radius: 50px;
 }
 
-/* --------------------rsponsive----------------------- */
+/* ================================RESPONSIVE======================================= */
+@media (max-width:1199.8px) {
+    .hero_content {
+        flex-wrap: wrap-reverse;
+    }
 
-@media (max-width:992px) {}
+    .gap_35 {
+        gap: 5px;
+    }
+
+    .pe_40 {
+        padding-right: 10px;
+    }
+
+
+    .mt_202 {
+        margin-top: 150px;
+    }
+
+    .mt_60 {
+        margin-top: 90px;
+    }
+}
+
+@media (max-width:991.9px) {
+    .mt_202 {
+        margin-top: 90px;
+    }
+
+    .mt_60 {
+        margin-top: 100px;
+    }
+
+    .card_details {
+        margin-top: 20px;
+    }
+
+    .sec_3_title {
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+
+    .card_play_btn {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:576px) {
+    .circle-style {
+        margin-top: 30px;
+    }
+
+    .sec-btns {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .compete-para {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
